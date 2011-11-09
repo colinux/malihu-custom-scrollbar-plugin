@@ -49,3 +49,9 @@ curl \
   -d code_url=https://github.com/colinux/raw/master/jquery.mCustomScrollbar.js \
   http://closure-compiler.appspot.com/compile
 ```
+
+
+## License
+
+The original license is CC-BY-3.0
+<http://creativecommons.org/licenses/by/3.0/>
