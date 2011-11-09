@@ -4,7 +4,7 @@ This is a copy slighlty modified of the original jquery plugin, created by [Mali
 You can find the original version, [demos](http://manos.malihu.gr/tuts/jquery_custom_scrollbar.html),
 examples and documentation on the official page <http://manos.malihu.gr/jquery-custom-content-scroller>.
 
-This version is modified to have a more complete options mechanism with inheritance. There are 2 major changes
+This version is modified to have a more complete options mechanism with inheritance. There are 3 major changes:
 
  * plugin declaration: all options are passed in an object
  * all elements manipulated can be overrided by options
@@ -46,7 +46,7 @@ Please refer to the code to have a full list of options.
 curl \
   -d output_info=compiled_code \
   -d compilation_level=SIMPLE_OPTIMIZATIONS \
-  -d code_url=https://github.com/colinux/raw/master/jquery.mCustomScrollbar.js \
+  -d code_url=https://raw.github.com/colinux/malihu-custom-scrollbar-plugin/master/jquery.mCustomScrollbar.js \
   http://closure-compiler.appspot.com/compile
 ```
 
