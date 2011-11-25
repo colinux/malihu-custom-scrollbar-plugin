@@ -307,7 +307,7 @@ $.fn.mCustomScrollbar = function (options) {
         });
 
         //scroll buttons
-        if(scrollBtnsSupport){
+        if(options.scrollBtnsSupport){
           options.scrollDownBtn.mouseup(function(){
             BtnsScrollStop();
           }).mousedown(function(){
