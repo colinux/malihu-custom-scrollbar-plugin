@@ -210,8 +210,8 @@ $.fn.mCustomScrollbar = function (options) {
         }
 
         //scroll
-        var scrollAmount=(totalContent-visibleWidth)/(draggerContainerWidth-draggerWidth);
         function ScrollX(){
+          var scrollAmount=($customScrollBox_container.width()-visibleWidth)/(draggerContainerWidth-draggerWidth);
           var draggerX=options.dragger.position().left;
           var targX=-draggerX*scrollAmount;
           var thePos=options.customScrollBox_container.css('marginLeft').replace('px','') - targX;
@@ -357,8 +357,8 @@ $.fn.mCustomScrollbar = function (options) {
         if(options.bottomSpace<1){
           options.bottomSpace=1; //minimum bottomSpace value is 1
         }
-        var scrollAmount=(totalContent-(visibleHeight/options.bottomSpace))/(draggerContainerHeight-draggerHeight);
         function Scroll(){
+          var scrollAmount=($customScrollBox_container.height() -(visibleHeight/options.bottomSpace))/(draggerContainerHeight-draggerHeight);
           var draggerY=options.dragger.position().top;
           var targY=-draggerY*scrollAmount;
           var thePos=options.customScrollBox_container.position().top-targY;
